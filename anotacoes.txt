@@ -1,0 +1,19 @@
+(26/08/2026)
+
+O que e o tamanho do lote e pra que serve?
+- e o numero de instancias do dataset (conjunto de dados) de treinamento que sera processado pela rede reural antes que a rede pare e recalcule os parametros w e b.
+
+uma epoca (epoch)
+- acontece quando cada instancia foi processado pelo menos uma vez
+- e um parametro que define quantas vezes voce quer processar sua instancia antes de parar a rede
+
+o que e a funcao do erro (loss function)
+- e a funcao utilizada pelo modelo para medir o erro durante o treinamento
+- o tipo de medida depende do problema, procurar escolhre penalizando o outlier
+
+taxa de aprendizado
+- a taxa de aprendizado define a velocidade com que a rede vai alterar os parametros. 
+
+gradiente
+- define a intensidade e direcao que a rede vai dar para o ajuste dos pesos, trabalho interno da rede.
+
